@@ -2,7 +2,8 @@
 
 Game::Game()
 {
-
+    score = 0;
+    isRunning = false;
 }
 
 Game::~Game()
