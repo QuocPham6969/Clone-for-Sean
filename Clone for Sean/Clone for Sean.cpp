@@ -2,10 +2,14 @@
 //
 
 #include <iostream>
+#include "Game.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	Game game; // Create an instance of the Game class
+	game.Run(); // Call the run method to start the game
+
+	return 0; // Return 0 to indicate successful execution
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
